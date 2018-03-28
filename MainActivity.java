@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Interstitial Ad
         final InterstitialAd interstitialAd=new InterstitialAd(getApplicationContext());
-        interstitialAd.setAdUnitId("ca-app-pub-9491490870756061/5860441121");
+        interstitialAd.setAdUnitId("******************************");
         interstitialAd.loadAd(adRequest);
         interstitialAd.setAdListener(new AdListener(){
             @Override
